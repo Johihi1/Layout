@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    background-color: aqua;
+}
+
+main {
+    float: left;
+    margin-left: 2.5%;
+}
+
+button {
+    background-color: aqua;
+    border: none;
+    font-size: large;
+}
+
+hr {
+    background-color: black;
+    border-color: black;
+    width: 30%;
+    float: left;
+}
