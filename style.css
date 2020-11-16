@@ -1,22 +1,41 @@
-body {
+body, html {
+    height: 100%;
+  }
+
+  body {
     margin: 0;
-    background-color: aqua;
-}
+    display: flex;
+    flex-direction: column;
+  }
 
-main {
-    float: left;
-    margin-left: 2.5%;
-}
+  main {
+    margin: 0 auto;
+    width: 80%;
+  }
+  img {
+    float: right;
+    margin-left: 1em;
+    margin-bottom: 1em;
+  }
 
-button {
-    background-color: aqua;
-    border: none;
-    font-size: large;
-}
+  footer {
+    margin-top: auto;
+    background-color: lightblue;
+    padding: .5rem;
+  }
 
-hr {
-    background-color: black;
-    border-color: black;
-    width: 30%;
-    float: left;
-}
+  nav {
+    text-decoration: none;
+    display: flex;
+    background-color: lightblue;
+    padding: .5rem;
+    font-size: 1.4rem;
+  }
+
+  ul {
+    display: flex;
+  }
+
+  li {
+    margin: 0 1rem;
+  }
